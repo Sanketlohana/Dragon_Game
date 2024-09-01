@@ -1,6 +1,6 @@
 import streamlit as st
 
-files = ["Home" if file == "Main.py"]
+files = ["Home" if file == "main.py" else file for file in files]
 
 st.markdown("<h1 style='text-align: center;'>Dragon Warrior Thief Game</h1>", unsafe_allow_html=True)
 
