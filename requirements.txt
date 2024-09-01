@@ -1,1 +1,1 @@
-Run app if name=="Home"
+Run app if name=="Home.py"
