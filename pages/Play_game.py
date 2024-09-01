@@ -24,7 +24,7 @@ rules = """
 # Display the rules in the sidebar
 st.sidebar.markdown(rules, unsafe_allow_html=True)
 
-user_choice = 'initial'
+user_choice = "initial"
 def game():
     # Determine the outcome
     if user_choice == "initial":
