@@ -9,6 +9,21 @@ rules = {
     "Warrior": "Thief",   # Warrior Defeats Thief
     "Thief": "Dragon"     # Thief Steals from Dragon
 }
+
+
+# Sidebar Title
+st.sidebar.title("Game Rules")
+
+# Concise Rules Content
+rules = """
+- **Dragon** beats **Warrior**, but **Thief** can steal from Dragon.
+- **Warrior** beats **Thief**, but is no match for **Dragon**.
+- **Thief** steals from **Dragon**, but loses to **Warrior**.
+"""
+
+# Display the rules in the sidebar
+st.sidebar.markdown(rules, unsafe_allow_html=True)
+
 user_choice = 'initial'
 def game():
     # Determine the outcome
