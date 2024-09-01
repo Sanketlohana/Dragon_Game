@@ -90,11 +90,7 @@ with col3:
         elif computer_choice == "Thief":
             st.image("image3.png",width = 189,caption = "Thief")
 
-# with col4:
-#     st.markdown("<br><br><br><br><br><br><br><br><br><br>",unsafe_allow_html=True)
-    
-#     game()
-
+st.sidebar.write("Close the sidebar for better experience")
 
 
         
