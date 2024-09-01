@@ -1,12 +1,6 @@
 import streamlit as st
 
-files = ["dragon game/main.py", "dragon game/pages/Play_game.py", "file2.py"]
-
-display_names = [
-    "Home" if "main.py" in file else 
-    "Play Game" if "Play_game.py" in file else 
-    file for file in files
-]
+st.sidebarheader("Home")
 
 
 st.markdown("<h1 style='text-align: center;'>Dragon Warrior Thief Game</h1>", unsafe_allow_html=True)
