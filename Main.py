@@ -1,5 +1,7 @@
 import streamlit as st
 
+files = ["Home" if file == "Main.py"]
+
 st.markdown("<h1 style='text-align: center;'>Dragon Warrior Thief Game</h1>", unsafe_allow_html=True)
 
 # Add some space after the title
