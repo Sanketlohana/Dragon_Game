@@ -1,5 +1,4 @@
 import streamlit as st
-st.write("Hello there")
 
 st.markdown("<h1 style='text-align: center;'>Dragon Warrior Thief Game</h1>", unsafe_allow_html=True)
 
@@ -8,7 +7,7 @@ st.text("")
 st.text("")
 
 # Create three columns with custom widths for spacing
-col1, col2, col3 = st.columns([1.5, 1.6,1.7])
+col1, col2, col3 = st.columns([2, 2 ,2])
 
 # Display an image in each column
 with col1:
